@@ -32,7 +32,7 @@ router.get('/get_todos', (req, res) =>{
         console.log(err,'err')
         console.log('failed to query @ /get_todo: " + err ')
     }
-    console.log("getting data from database @ /get_todos")
+    console.log("getting data from hey database @ /get_todos")
     res.json(rows)
   })
 })
